@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    background: linear-gradient(blue,green,red,yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    height: 250px;
+}
+
+.central{
+    width: fit-content;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px black;
+}
+
+.central .botoes button{
+    width: 60px;
+    background: cyan;
+    border: none;
+    cursor: pointer;
+    transition: 0.75s;
+}
+
+.central .botoes button:hover{
+    background: black;
+    color: cyan;
+    transform: translateY(-5px);
+}
